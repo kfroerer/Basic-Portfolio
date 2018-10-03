@@ -58,14 +58,12 @@ header {
     color: white;
     
 }
- .Name {
+ #Name {
      color: white;
      position: absolute;
      bottom: 20px;
  }
 
-.project1 {
-}
 
 .project2 {
     left: 25%;
@@ -87,9 +85,25 @@ header {
 .links {
     float: right;
     padding: 30px;
-    margin-right: 200px;
-}
+    margin-right: 150px;
 
+}
+ .about {
+    
+     border-right: gray 1px solid;
+     margin-right: 23px;
+     float: left;
+     text-align: left;
+
+    
+ }
+
+ .portfolio {
+     border-right: gray 1px solid;
+     margin-right: 15px;
+     text-align: center;
+     padding-right: 20px;
+ }
 h2 {
     color:#4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -126,9 +140,13 @@ a:active{
 .bio-info {
     float: right;
     width: 78%;
-    margin left: 0;
+    margin-left: 0;
 }
 
+button {
+    background-color: teal;
+    color: #eeeeee;
+}
 footer {
     background: #666666;
     color: white;
