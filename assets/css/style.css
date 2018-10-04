@@ -5,6 +5,7 @@ body {
     margin: auto;
     display: flex;
     flex-direction: column;
+    line-height: 30px;
 }
 
 header {
@@ -25,7 +26,7 @@ header {
     padding: 20px;
     float: left;
     text-align: left; 
-    margin-left: 183px;
+    margin-left: 13%;
     
 }
 
@@ -56,12 +57,14 @@ header {
     width: 200px;
     text-align: center;
     color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
     
 }
- #Name {
-     color: white;
+ #name1 {
      position: absolute;
-     bottom: 20px;
+     bottom: 8px;
+     left: 29%;
  }
 
 
@@ -94,6 +97,7 @@ header {
      margin-right: 23px;
      float: left;
      text-align: left;
+     padding-right: 20px;
 
     
  }
@@ -114,6 +118,11 @@ h2 {
 
 }
 
+.title {
+    margin-bottom: 1%;
+    margin-top: 3%;
+}
+
 
 a:link{ 
     color: #777777
@@ -131,10 +140,11 @@ a:active{
     color: blue;
 }
 
-.profile-image {
+#profile-image {
     float: left;
     width: 20%;
-    margin: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
 }
 
 .bio-info {
@@ -143,9 +153,6 @@ a:active{
     margin-left: 0;
 }
 
-button {
-    background-color: teal;
-    color: #eeeeee;
 }
 footer {
     background: #666666;
@@ -156,3 +163,12 @@ footer {
     float: 20px;
     flex-shrink: 0;
 }
+
+button {
+    background-color: teal;
+    color: #eeeeee;
+    height: 32px;
+    width: 88px;
+    font-family: arial;
+    font-size: 1px;
+}7
