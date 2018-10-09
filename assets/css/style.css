@@ -36,7 +36,7 @@ header {
     border-style: solid;
     border-color: #dddddd;
     border-width: 1px;
-    width: 960px;
+    width: 73%;
     margin: auto;
     padding: 1.5%;
     background-color: #ffffff;
@@ -176,4 +176,136 @@ button {
 img {
     height: 200;
     width: 200;
+}
+
+@media only screen and (max-width: 540px) {
+    header {
+        width: 50%;
+    }
+    input {
+        width: 360;
+    }
+    textarea {
+        width: 360;
+    }
+    .about {
+        margin-right: 13px;
+        padding: 18 px;
+        margin-left: 0;
+    }
+    .portfolio {
+        margin-right: 13px;
+        padding-right: 18 px;
+    }
+    .links {
+        float: left;
+        margin-right: 0;
+        width: 100%;
+    }
+    .project-link {
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        
+    }
+
+    #profile-image {
+        float: left;
+        width: 50%;
+        padding-top: 10;
+        padding-right: 10;
+    }
+    
+
+    h2 {
+        margin-top: 50px;
+
+
+    }
+
+}
+
+@media only screen and (min-width: 541px) {
+    #profile-image {
+        float: left;
+        width: 40%;
+        padding-top: 10;
+        padding-right: 10;
+    }
+    
+}
+
+
+@media only screen and (min-width: 768px) {
+    input {
+        width: 550;
+    }
+    textarea {
+        width: 550;
+    }
+
+    #profile-image {
+        height: 175px;
+        width: 30%;
+    }
+    
+    .project2 {
+        left: 230;
+        bottom: 211;
+    }
+    
+    .project3 {
+        bottom: 200; 
+    }
+    
+    .project4 {
+        bottom: 411;
+        left: 230;
+    }
+    
+    .project5 {
+        bottom: 396;
+    }
+    
+        
+
+}
+
+
+
+
+@media only screen and (min-width: 1200px) {
+    input {
+        width: 900;
+    }
+    textarea {
+        width: 900  ;
+    }
+
+    .project2 {
+        left: 27%;
+        bottom: 216;
+    }
+    
+    .project3 {
+        bottom: 200; 
+    }
+    
+    .project4 {
+        bottom: 420;
+        left: 27%;
+    }
+    
+    .project5 {
+        bottom: 396;
+    }
+    
+    #profile-image {
+        float: left;
+        height: 280px;
+        padding-top: 10;
+        padding-right: 10;
+    }
+        
 }
